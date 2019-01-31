@@ -1,9 +1,10 @@
-# Recipe App
+# Recipe App 🎛🍱🍡
+
 A Django app that displays recipes and its ingredients.
 
 # Tech Stack 🚜
 
-In this project, we use Docker to easily manage our environment. We use Postgres from the database. We use Django and the REST framework.
+In this project, we use Docker to easily manage our environment. We use Postgres for the database. We use Django and the REST framework. We run integration tests with Travis CI.
 
 # Starting the app 🎳
 
