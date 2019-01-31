@@ -11,4 +11,4 @@ In this project, we use Docker to easily manage our environment. We use Postgres
 
 2. To make sure your Docker is running correctly, run `docker -v`
 
-3. On the folder `recipe-api-app` build the Docker container by running `docker build . `
+3. In your root directory, build the Docker container by running `docker-compose build`
