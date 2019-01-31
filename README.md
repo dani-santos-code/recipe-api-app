@@ -1,4 +1,4 @@
-# Recipe App 🎛🍱🍡
+# Recipe App 🍱
 
 A Django app that displays recipes and its ingredients.
 
