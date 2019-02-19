@@ -16,9 +16,10 @@ In this project, we use Docker to easily manage our environment. We use Postgres
 
 4. Run `docker-compose run app sh -c "django-admin.py startproject app ."` to create a new Django project
 
-5. To run scripts, run docker-compose run app sh -c "python manage.py test"`
+5. To run tests, run `docker-compose run app sh -c "python manage.py test"`
 
 6. To run tests as well as the linter (Flake 8), run `docker-compose run app sh -c "python manage.py test && flake8"`
 
 7. To make migrations, run: `docker-compose run app sh -c "python manage.py makemigrations"`
 
+8 . To start the app and run migrations at the same time, run `docker-compose up`
